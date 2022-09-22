@@ -7,10 +7,9 @@ image:
 
 ports:
   - port: 6080
-    onOpen: open-browser
+    onOpen: open-preview
 
 tasks:
   - init: pip install -r requirements.txt
     command: python main.py
-
 
